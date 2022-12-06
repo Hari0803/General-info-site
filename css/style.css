@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  text-align: center;
+font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1{
+  margin: 80px auto 0 auto;
+  font-family: 'Great Vibes', cursive;
+  font-size: 4.375rem;
+line-height: 2;
+color: #5F6F94;
+
+}
+
+h2{
+font-size: 1.5625rem;
+font-weight: normal;
+color: #5F6F94;
+}
+
+  h3{
+color: #5F6F94;
+}
+
+.top-container{
+background-color: #A7D2CB;
+padding: 20px;
+
+}
+
+
+.top-cloud{
+  position:absolute;
+  right: 380px;
+}
+
+.bottom-cloud{
+  position: absolute;
+}
+
+.web{
+  text-decoration: underline;
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.skills{
+  width: 50%;
+  margin: 80px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer{
+  float: left;
+  width: 25%;
+margin-right: 25px;
+
+}
+
+.reactImage{
+float: right;
+  width: 25%;
+  margin-right: 50px;
+}
+
+hr{
+
+width: 5%;
+border-style:none; /*boder 4sides irukum ipo athu clear agiruchu*/
+border-top-style: dotted;  /*top border is vara vechachu*/
+border-width: 5px;
+border-color: #9CB4CC;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.bottom-container{
+  margin-top: 50px;
+  padding: 30px;
+
+  border-radius: 8;
+  background-color: #A7D2CB;
+}
+
+.footer-link{
+color: #5F6F94;
+margin: 20px;
+text-decoration: none;
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.copyright{
+  color:white;
+}
+
+.contact-me{
+  width: 50%;
+  margin: auto;
+  line-height: 3;
+}
+
+
+.btn {
+
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+.user-image{
+
+  border-radius: 100%;
+
+}
+
+.middle-container{
+  padding-top: 10px;
+}
